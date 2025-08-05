@@ -33,8 +33,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       dinero.js:
-        specifier: 2.0.0-alpha.10
-        version: 2.0.0-alpha.10
+        specifier: 2.0.0-alpha.14
+        version: 2.0.0-alpha.14
       ms:
         specifier: 3.0.0-canary.1
         version: 3.0.0-canary.1
@@ -112,14 +112,14 @@ packages:
   '@code-hike/lighter@1.0.1':
     resolution: {integrity: sha512-mccvcsk5UTScRrE02oBz1/qzckyhD8YE3VQlQv++2bSVVZgNuCUX8MpokSCi5OmfRAAxbj6kmNiqq1Um8eXPrw==}
 
-  '@dinero.js/calculator-number@2.0.0-alpha.10':
-    resolution: {integrity: sha512-EdKG0yykukigfdq+TsxZ9r0Wrg5flYAncKWSfr2snWDXurFsg8JE0oazVraCBA3Vb5LN4vGuFEpTFTH+dIrRCg==}
+  '@dinero.js/calculator-number@2.0.0-alpha.14':
+    resolution: {integrity: sha512-Vmlu6eXNtkFU2cqlrpqfq8KQP9onALf8Es2d34liVa3k3RHjuhizgFUU3V3/tsjOu5WekZq+gYPOr58XVTkB7A==}
 
-  '@dinero.js/core@2.0.0-alpha.10':
-    resolution: {integrity: sha512-vjeGXQbNvDXlXK54zaWDydEXyFAvLDj6LCfwO4CTZJIqn3+PaXakaEd5S0AXC6hluPatxnQa5J63x3WQ/Imrjw==}
+  '@dinero.js/core@2.0.0-alpha.14':
+    resolution: {integrity: sha512-CtKELJ783joUbaU62fRM2xDXb4XYSy0MgOuIkPWgVOS3SYKKb6+2Ec9bNlvrW8lsPROz/RsvCuYVTphrZ79twg==}
 
-  '@dinero.js/currencies@2.0.0-alpha.10':
-    resolution: {integrity: sha512-IDKaAh0YcJh700uLCrvWtIRCl5sItc3S2rk4IfVJBbms3j+NBDOlVFJnwru+UrMh7VpqU9GlZRsHcHf0NxYE9A==}
+  '@dinero.js/currencies@2.0.0-alpha.14':
+    resolution: {integrity: sha512-Ck5ZLjRI7Pl7Y4VkeOst4WEwiN5vZezv8GHcXWsVLUfTNsmkV37VeLYDRAuTUP4akEJyIry+1o1qHYNtLq3eNw==}
 
   '@emnapi/runtime@1.4.1':
     resolution: {integrity: sha512-LMshMVP0ZhACNjQNYXiU1iZJ6QCcv0lUdPDPugqGvCGXt5xtRVBPdtA0qU12pEXZzpWAhWlZYptfdAFq10DOVQ==}
@@ -588,8 +588,8 @@ packages:
     resolution: {integrity: sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==}
     engines: {node: '>=0.3.1'}
 
-  dinero.js@2.0.0-alpha.10:
-    resolution: {integrity: sha512-EDiOZanmJBJnFfiz5cUL/I2UI7EXQ0jXf18srqgO7sQhChyBbN39b5sf6T4fq4Oj3f4/6x2L96YPUbMRcUmd/A==}
+  dinero.js@2.0.0-alpha.14:
+    resolution: {integrity: sha512-dkURHd9P+2TjuSTMUAnvrB7SsL4GbBYG/WPtIBV8M+L7Xf80x84sJcUUTxIS33S4AlkIbVANlaL86w2g5zdrmg==}
 
   enhanced-resolve@5.18.1:
     resolution: {integrity: sha512-ZSW3ma5GkcQBIpwZTSRAI8N71Uuwgs93IezB7mf7R60tC8ZbJideoDNKjHn2O9KIlx6rkGTTEk1xUCK2E1Y2Yg==}
@@ -1163,15 +1163,15 @@ snapshots:
     dependencies:
       ansi-sequence-parser: 1.1.1
 
-  '@dinero.js/calculator-number@2.0.0-alpha.10':
+  '@dinero.js/calculator-number@2.0.0-alpha.14':
     dependencies:
-      '@dinero.js/core': 2.0.0-alpha.10
+      '@dinero.js/core': 2.0.0-alpha.14
 
-  '@dinero.js/core@2.0.0-alpha.10':
+  '@dinero.js/core@2.0.0-alpha.14':
     dependencies:
-      '@dinero.js/currencies': 2.0.0-alpha.10
+      '@dinero.js/currencies': 2.0.0-alpha.14
 
-  '@dinero.js/currencies@2.0.0-alpha.10': {}
+  '@dinero.js/currencies@2.0.0-alpha.14': {}
 
   '@emnapi/runtime@1.4.1':
     dependencies:
@@ -1566,11 +1566,11 @@ snapshots:
 
   diff@5.2.0: {}
 
-  dinero.js@2.0.0-alpha.10:
+  dinero.js@2.0.0-alpha.14:
     dependencies:
-      '@dinero.js/calculator-number': 2.0.0-alpha.10
-      '@dinero.js/core': 2.0.0-alpha.10
-      '@dinero.js/currencies': 2.0.0-alpha.10
+      '@dinero.js/calculator-number': 2.0.0-alpha.14
+      '@dinero.js/core': 2.0.0-alpha.14
+      '@dinero.js/currencies': 2.0.0-alpha.14
 
   enhanced-resolve@5.18.1:
     dependencies:
